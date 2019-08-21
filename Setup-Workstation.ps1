@@ -14,7 +14,6 @@ choco install rdcman -y
 choco install slack -y
 choco install sourcetree -y
 choco install terraform -y
-choco install vnc-viewer -y
 choco install vscode -y
 choco install winscp -y
 choco install visualstudio2019enterprise --package-parameters "--add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.NetCrossPlat --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --passive --locale en-US" -y
