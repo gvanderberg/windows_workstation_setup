@@ -19,13 +19,13 @@
 # choco install vscode -y
 # choco install winscp -y
 choco install visualstudio2019enterprise -y
-choco install visualstudio2019-workload-manageddesktop -y
-choco install visualstudio2019-workload-netcoretools -y
-# choco install visualstudio2019-workload-netcorebuildtools -y
-choco install visualstudio2019-workload-netcrossplat -y
-choco install visualstudio2019-workload-node -y
-# choco install visualstudio2019-workload-nodebuildtools -y
-choco install visualstudio2019-workload-netweb -y
+# choco install visualstudio2019-workload-manageddesktop -y
+# choco install visualstudio2019-workload-netcoretools -y
+# # choco install visualstudio2019-workload-netcorebuildtools -y
+# choco install visualstudio2019-workload-netcrossplat -y
+# choco install visualstudio2019-workload-node -y
+# # choco install visualstudio2019-workload-nodebuildtools -y
+# choco install visualstudio2019-workload-netweb -y
 # choco install visualstudio2019-workload-webbuildtools -y
 
 # #---
