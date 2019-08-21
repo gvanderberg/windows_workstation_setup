@@ -19,37 +19,37 @@ choco install vscode -y
 choco install winscp -y
 choco install visualstudio2019enterprise --package-parameters "--add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.NetCrossPlat --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --passive --locale en-US" -y
 
----
+# ---
 choco install IIS-WebServerRole --source WindowsFeatures
 
----
+# ---
 choco install IIS-ApplicationDevelopment --source WindowsFeatures
 
 choco install IIS-NetFxExtensibility45 --source WindowsFeatures
 choco install IIS-ASPNET45 --source WindowsFeatures
 choco install IIS-WebSockets --source WindowsFeatures
----
+# ---
 choco install IIS-CommonHttpFeatures --source WindowsFeatures
 
 choco install IIS-DefaultDocument --source WindowsFeatures
 choco install IIS-DirectoryBrowsing --source WindowsFeatures
 choco install IIS-HttpRedirect --source WindowsFeatures
----
+# ---
 choco install IIS-HealthAndDiagnostics --source WindowsFeatures
 
 choco install IIS-CustomLogging --source WindowsFeatures
 choco install IIS-LoggingLibraries --source WindowsFeatures
 choco install IIS-ODBCLogging --source WindowsFeatures
 choco install IIS-HttpTracing --source WindowsFeatures
----
+# ---
 choco install IIS-Performance --source WindowsFeatures
 
 choco install IIS-HttpCompressionDynamic --source WindowsFeatures
 choco install IIS-HttpCompressionStatic --source WindowsFeatures
----
+# ---
 choco install IIS-Security --source WindowsFeatures
 
 choco install IIS-BasicAuthentication --source WindowsFeatures
 choco install IIS-WindowsAuthentication --source WindowsFeatures
----
+# ---
 choco install TelnetClient --source WindowsFeatures
