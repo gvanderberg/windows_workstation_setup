@@ -1,30 +1,31 @@
-Set-ExecutionPolicy Bypass -Scope Process -Force
-Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+# Set-ExecutionPolicy Bypass -Scope Process -Force
+# Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-choco install 7zip -y
-choco install azure-cli -y
-choco install docker-desktop -y
-choco install etcher -y
-choco install kubernetes-cli -y
-choco install kubernetes-helm -y
-choco install postman -y
-choco install putty -y
-choco install rdcman -y
-choco install slack -y
-choco install sourcetree -y
-choco install terraform -y
-choco install vault -y
-#choco install vnc-viewer -y
-choco install vscode -y
+# choco install 7zip.install -y
+# choco install azure-cli -y
+# choco install docker-desktop -y
+# choco install etcher -y
+# choco install git.install -y
+# choco install kubernetes-cli -y
+# choco install kubernetes-helm -y
+# choco install postman -y
+# choco install putty.install -y
+# choco install rdcman -y
+# choco install slack -y
+# choco install sourcetree -y
+# choco install terraform -y
+# choco install vault -y
+# choco install vnc-viewer -y
+# choco install vscode -y
 # choco install winscp -y
-# choco install visualstudio2019enterprise -y
-# choco install visualstudio2019-workload-manageddesktop -y
-# choco install visualstudio2019-workload-netcoretools -y
+choco install visualstudio2019enterprise -y
+choco install visualstudio2019-workload-manageddesktop -y
+choco install visualstudio2019-workload-netcoretools -y
 # choco install visualstudio2019-workload-netcorebuildtools -y
-# choco install visualstudio2019-workload-netcrossplat -y
-# choco install visualstudio2019-workload-node -y
+choco install visualstudio2019-workload-netcrossplat -y
+choco install visualstudio2019-workload-node -y
 # choco install visualstudio2019-workload-nodebuildtools -y
-# choco install visualstudio2019-workload-netweb -y
+choco install visualstudio2019-workload-netweb -y
 # choco install visualstudio2019-workload-webbuildtools -y
 
 # #---
