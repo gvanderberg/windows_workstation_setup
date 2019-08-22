@@ -6,6 +6,7 @@ choco install azure-cli -y
 choco install docker-desktop -y
 choco install etcher -y
 choco install git.install -y
+choco install googlechrome -y
 choco install kubernetes-cli -y
 choco install kubernetes-helm -y
 choco install mremoteng -y
