@@ -11,7 +11,6 @@ choco install kubernetes-cli -y
 choco install kubernetes-helm -y
 choco install mremoteng -y
 choco install postman -y
-choco install rdcman -y
 choco install slack -y
 choco install sourcetree -y
 choco install terraform -y
