@@ -2,6 +2,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 choco install -y 7zip.install
+choco install -y adobereader
 choco install -y azure-cli
 choco install -y docker-desktop
 choco install -y etcher
