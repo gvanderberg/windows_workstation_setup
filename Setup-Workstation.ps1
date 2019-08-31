@@ -1,22 +1,23 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-choco install 7zip.install -y
-choco install azure-cli -y
-choco install docker-desktop -y
-choco install etcher -y
-choco install git.install -y
-choco install googlechrome -y
-choco install kubernetes-cli -y
-choco install kubernetes-helm -y
-choco install mremoteng -y
-choco install postman -y
-choco install slack -y
-choco install sourcetree -y
-choco install terraform -y
-choco install vscode -y
-choco install winscp -y
-choco install visualstudio2019enterprise --package-parameters "--add Microsoft.VisualStudio.Workload.CoreEditor --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.NetCrossPlat --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --passive --locale en-US" -y
+choco install -y 7zip.install
+choco install -y azure-cli
+choco install -y docker-desktop
+choco install -y etcher
+choco install -y git.install
+choco install -y googlechrome
+choco install -y kubernetes-cli
+choco install -y kubernetes-helm
+choco install -y mremoteng
+choco install -y postman
+choco install -y slack
+choco install -y sourcetree
+choco install -y terraform
+choco install -y vscode
+choco install -y winscp
+choco install -y wsl
+choco install -y visualstudio2019enterprise --package-parameters "--add Microsoft.VisualStudio.Workload.CoreEditor --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.NetCrossPlat --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --passive --locale en-US"
 
 # ---
 choco install IIS-WebServerRole --source WindowsFeatures
