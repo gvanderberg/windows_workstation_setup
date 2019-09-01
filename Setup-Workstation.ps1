@@ -14,6 +14,7 @@ choco install -y mremoteng
 choco install -y postman
 choco install -y slack
 choco install -y sourcetree
+choco install -y sql-server-express
 choco install -y terraform
 choco install -y vscode
 choco install -y winscp
