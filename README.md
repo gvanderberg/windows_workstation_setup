@@ -5,5 +5,5 @@ I created this script, using powershell and chocolatey, to streamline my develop
 A single line executed from powershell and all your favourite tools are there and ready to be used.
 
 ```
-Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/gvanderberg/windows_workstation_setup/master/Setup-Workstation.ps1'))
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/gvanderberg/workstation_setup/master/windows/Setup-Workstation.ps1'))
 ```
