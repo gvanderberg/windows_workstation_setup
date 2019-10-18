@@ -13,6 +13,7 @@ choco install -y kubernetes-helm
 choco install -y mremoteng
 choco install -y postman
 choco install -y powershell-core
+choco install -y resharper
 choco install -y slack
 choco install -y sourcetree
 choco install -y sql-server-express
