@@ -8,6 +8,7 @@ choco install -y docker-desktop
 choco install -y etcher
 choco install -y git.install
 choco install -y googlechrome
+choco install -y jdk8
 choco install -y kubernetes-cli
 choco install -y kubernetes-helm
 choco install -y mremoteng
