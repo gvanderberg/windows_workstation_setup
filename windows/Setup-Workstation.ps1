@@ -24,7 +24,7 @@ choco install -y terraform
 choco install -y vscode
 choco install -y winscp
 choco install -y wsl
-choco install -y visualstudio2019enterprise --package-parameters "--add Microsoft.VisualStudio.Workload.CoreEditor --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.NetCrossPlat --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --passive --locale en-US"
+choco install -y visualstudio2019enterprise --package-parameters "--add Microsoft.VisualStudio.Workload.CoreEditor --add Microsoft.VisualStudio.Workload.Data --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.NetCrossPlat --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Node --add Microsoft.VisualStudio.Workload.Python --add Microsoft.Net.Component.4.6.2.SDK --add Microsoft.Net.Component.4.7.2.SDK --add Microsoft.Net.Core.Component.SDK.2.2 --add Microsoft.Net.Core.Component.SDK.3.0 --add Component.Android.SDK28 --passive --locale en-US"
 
 # ---
 choco install IIS-WebServerRole --source WindowsFeatures
