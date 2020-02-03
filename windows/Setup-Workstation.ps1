@@ -6,6 +6,7 @@ choco install -y adobereader
 choco install -y azure-cli
 choco install -y docker-desktop
 choco install -y etcher
+choco install -y gcloudsdk
 choco install -y git.install
 choco install -y googlechrome
 choco install -y gradle
