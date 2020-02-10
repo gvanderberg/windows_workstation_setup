@@ -10,6 +10,7 @@ choco install -y gcloudsdk --ignore-checksums
 choco install -y git.install
 choco install -y googlechrome
 choco install -y gradle
+choco install -y istioctl
 choco install -y jdk8
 choco install -y kubernetes-cli
 choco install -y kubernetes-helm
