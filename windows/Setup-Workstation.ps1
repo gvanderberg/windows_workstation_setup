@@ -25,6 +25,7 @@ choco install -y sql-server-express
 choco install -y sql-server-management-studio
 choco install -y terraform
 choco install -y vscode
+choco install -y vscode-java
 choco install -y vscode-maven
 choco install -y winscp
 choco install -y wsl
