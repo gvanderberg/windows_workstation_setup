@@ -23,6 +23,8 @@ choco install -y sourcetree
 choco install -y sql-server-express
 choco install -y sql-server-management-studio
 choco install -y terraform
+choco install -y vagrant
+choco install -y virtualbox
 choco install -y vscode
 choco install -y vscode-docker
 choco install -y vscode-java
